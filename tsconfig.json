@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-mat-circle-counter": [
+        "dist/ngx-mat-circle-counter"
+      ],
+      "ngx-mat-circle-counter/*": [
+        "dist/ngx-mat-circle-counter/*"
+      ]
+    }
   }
 }

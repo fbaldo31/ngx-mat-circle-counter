@@ -1,0 +1,109 @@
+:host ::ng-deep {
+    .header, .doc {
+        margin-top: -30px;
+    }
+    .header {        
+        h1 {
+            height: 100px;
+    
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
+    section, footer {
+        padding: 10px;
+        padding-left: 30px;
+    }
+    
+    section.aside {
+        // width: 20%;
+        // float: left;
+    
+        mat-form-field {
+            margin-right: 10px;
+            width: 85px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    section.main {
+        width: 70%;
+        margin-left: 10%;
+        margin-top: -70px;
+        // float: right;
+
+        .code {
+            width: 350px;
+        }
+    
+        ngx-mat-circle-counter {
+            margin-top: -50%;
+        }
+
+        .circle-counter-wrapper.size-xl {
+            margin-top: -20px;
+        }
+    }
+
+    /* MD Styles */
+    pre code {
+        margin: 0;
+        padding: 0;
+        white-space: pre;
+        border: none;
+        background: transparent; 
+    }
+
+    pre, footer {
+        background-color: #f8f8f8;
+        border: 1px solid #cccccc;
+        font-size: 13px;
+        line-height: 19px;
+        overflow: auto;
+        padding: 6px 10px;
+        border-radius: 3px;
+        display: inline-table;
+    }
+        pre code, pre tt {
+          background-color: transparent;
+          border: none; }
+    
+    table {
+        padding: 0; 
+
+        tr {
+            border-top: 1px solid #cccccc;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+
+            &:nth-child(2n) {
+                background-color: #f8f8f8; }
+            th {
+                font-weight: bold;
+                border: 1px solid #cccccc;
+                text-align: left;
+                margin: 0;
+                padding: 6px 13px;
+
+                :first-child, table tr td :first-child {
+                    margin-top: 0; }
+                :last-child, table tr td :last-child {
+                    margin-bottom: 0; }
+            }
+            
+            td {
+                border: 1px solid #cccccc;
+                text-align: left;
+                margin: 0;
+                padding: 6px 13px; }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+        bottom: 0;
+    }
+}

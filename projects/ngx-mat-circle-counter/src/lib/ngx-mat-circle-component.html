@@ -1,0 +1,18 @@
+<div *ngIf="sizeNumber" class="circle-counter-wrapper" [ngClass]="sizeClass">
+    <mat-progress-spinner 
+        class="circle-counter" 
+        [color]="color" [mode]="'determinate'" 
+        [value]="percent" [diameter]="sizeNumber"
+        [strokeWidth]="thickness"></mat-progress-spinner>
+    <!--<span *ngIf="mode === 'pageinit' || (mode === 'viewport' && isElementInViewport())"
+    class="circle-counter-value mat-h{{2}}" 
+    [ngStyle]="{'color':textColor}">{{count}}</span>-->
+    <mat-progress-spinner 
+        class="circle-counter" 
+        [color]="color" [mode]="'determinate'" 
+        [value]="100" [diameter]="sizeNumber"
+        [strokeWidth]="thickness"></mat-progress-spinner>
+    <span *ngIf="mode === 'pageinit' || (mode === 'viewport' && isElementInViewport())"
+    class="circle-counter-value mat-h{{2}}" 
+    [ngStyle]="{'color':textColor}">{{count}}</span>
+</div>

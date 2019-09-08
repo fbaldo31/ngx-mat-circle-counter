@@ -1,0 +1,65 @@
+:host ::ng-deep {
+    .circle-counter-wrapper {
+        position: relative;
+        
+        .circle-counter, .circle-counter-value {
+            position: absolute;
+        }
+        .circle-counter-value {
+            top: calc(50% + 35px);
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .circle-counter:nth-child(2) {
+            opacity: 0.35;
+        }
+    }
+    
+    .size-xs, .size-xs .circle-counter, .size-xs .circle-counter-value {
+        width: 100px !important;
+
+        .circle-counter-value {
+            top: calc(50% + 35px);
+            font-size: 35px;
+        }
+    }
+    
+    .size-s, .size-s .circle-counter, .size-s .circle-counter-value {
+        width: 150px !important;
+
+        .circle-counter-value {
+            top: calc(50% + 60px);
+            font-size: 60px;
+        }
+    }
+    
+    /* SIZE M */
+    .size-m, .size-m .circle-counter, .size-m .circle-counter-value {
+        width: 200px !important;
+        
+        .circle-counter-value {
+            top: calc(50% + 85px);
+            font-size: 70px;
+        }
+    }
+
+    .size-l, .size-l .circle-counter, .size-l .circle-counter-value {
+        width: 250px !important;
+
+        .circle-counter-value {
+            top: calc(50% + 110px);
+            font-size: 100px;
+        }
+    }
+
+    .size-xl, .size-xl .circle-counter, .size-xl .circle-counter-value {
+        width: 300px !important;
+
+        .circle-counter-value {
+            top: calc(50% + 137px);
+            font-size: 125px;
+        }
+    }
+}

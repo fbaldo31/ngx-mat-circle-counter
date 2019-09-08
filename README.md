@@ -1,4 +1,30 @@
-# MatCircleCounter
+# ngx-mat-circle-counter
+
+An angular material circle counter using progress spinner.
+
+## Installation
+
+`ng add @angular/material @angular/cdk`
+
+`yarn add ngx-mat-circle-counter`
+
+## use
+
+```html
+<ngx-circle-counter [color]="'primary'" [textColor]="'#69f0ae'" [size]="'xs'"></ngx-circle-counter>
+```
+
+## Api
+
+Attributes|Type|Default value|Description
+----------|----|-------------|-----------
+start|number|0|The value from the counter starts|
+size|'xs' - 's' - 'm' - 'l' - 'xl'|'m'|From 100px to 300px
+color|string|'primary'|Angular Material theme based color.
+textColor|string|'' (black)|As there is no way to inherit font color from theme, put directly the font color there.
+speed|number|10|Delay in millisecond to increase the counter.
+value|number|100|The value to the counter ends|
+mode|'viewport' or 'pageinit'|'viewport'|In viewport mode, counter won't start untill it is visible.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 

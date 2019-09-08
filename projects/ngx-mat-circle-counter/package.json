@@ -1,0 +1,16 @@
+{
+  "name": "ngx-mat-circle-counter",
+  "version": "0.0.1",
+  "author": {
+    "name": "Frederick BALDO",
+    "email": "f.baldo31@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbaldo31/ngx-mat-circle-counter.git/project/ngx-mat-circle-counter"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  }
+}
