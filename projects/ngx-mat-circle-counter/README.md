@@ -2,9 +2,15 @@
 
 An angular material circle counter using progress spinner.
 
+## Demo
+
+You can look at the [demo](https://fbaldo31.github.io/ngx-mat-circle-counter/) to play with the API.
+
 ## Installation
 
-`yarn add ngx-mat-circle-counter @angular/material`
+`ng add @angular/material @angular/cdk`
+
+`yarn add ngx-mat-circle-counter`
 
 ## use
 
@@ -23,10 +29,6 @@ textColor|string|'' (black)|As there is no way to inherit font color from theme,
 speed|number|10|Delay in millisecond to increase the counter.
 value|number|100|The value to the counter ends|
 mode|'viewport' or 'pageinit'|'viewport'|In viewport mode, counter won't start untill it is visible.
-
-## Demo
-
-You can look at the [demo]() for examples.
 
 ------------------------------------------------
 
