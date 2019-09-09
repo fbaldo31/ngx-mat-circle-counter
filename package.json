@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && cp ./projects/mat-circle-counter/* ./docs",
+    "build": "ng build --prod --base-href https://fbaldo31.github.io/ngx-mat-circle-counter/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
