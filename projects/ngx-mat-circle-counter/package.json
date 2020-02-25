@@ -1,6 +1,6 @@
 {
   "name": "ngx-mat-circle-counter",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "An angular material circle counter using progress spinner",
   "author": {
     "name": "Frederick BALDO",
@@ -18,7 +18,8 @@
   },
   "tags": [ "angular", "material", "circle", "counter", "customizable" ],
   "peerDependencies": {
-    "@angular/common": ">=8.0.3",
-    "@angular/core": "^8.0.3"
+    "@angular/common": ">=9",
+    "@angular/core": ">=9",
+    "@angular/material": ">=9"
   }
 }

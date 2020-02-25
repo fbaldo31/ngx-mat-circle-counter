@@ -1,8 +1,10 @@
 # ngx-mat-circle-counter
 
-An angular material circle counter using progress spinner.
+A customizable angular material circle counter using progress spinner.
 
 [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/fbaldo31/fbaldo31%2Fngx-mat-circle-counter%2Fngx-mat-circle-counter?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWM2MTFjNmMxMmE5NTYyZTZhYWQ3YTRl.S6H0kL3RuTkulI3shIONacgTBojrmumEo9peBrC4buw&type=cf-1)]( https://g.codefresh.io/pipelines/ngx-mat-circle-counter/builds?repoOwner=fbaldo31&repoName=ngx-mat-circle-counter&serviceName=fbaldo31%2Fngx-mat-circle-counter&filter=trigger:build~Build;branch:master;pipeline:5c80c0134cdef24ecbf23179~ngx-mat-circle-counter) ![David](https://img.shields.io/david/fbaldo31/ngx-mat-circle-counter.svg)
+
+[Changelog](https://github.com/fbaldo31/ngx-mat-circle-counter/blob/master/CHANGELOG.md)
 
 ## Demo
 
